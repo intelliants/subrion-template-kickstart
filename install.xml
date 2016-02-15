@@ -4,8 +4,8 @@
 	<summary>Bootstrap 3 developer template</summary>
 	<author>Gleb Surinov</author>
 	<contributor>Intelliants LLC</contributor>
-	<version>1.0.2</version>
-	<date>2016-01-22</date>
+	<version>1.0.3</version>
+	<date>2016-02-15</date>
 	<compatibility>4.0</compatibility>
 
 	<layout>
@@ -36,8 +36,7 @@
 	<configgroup name="template_kickstart">Template</configgroup>
 
 	<config group="template_kickstart" 
-		    name="kickstart_divider1" 
-		    type="divider" 
+		    type="divider"
 		    order="3000">General</config>
 
 	<config group="template_kickstart" 
@@ -73,8 +72,7 @@
 		    description="Logo text">Kickstart</config>
 
 	<config group="template_kickstart" 
-		    name="kickstart_divider2" 
-		    type="divider" 
+		    type="divider"
 		    order="3030">Social links</config>
 	
 	<config group="template_kickstart"
