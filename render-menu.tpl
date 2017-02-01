@@ -7,7 +7,7 @@
 		<ul class="nav navbar-nav navbar-right nav-account">
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					{*printImage imgfile=$member.avatar title=$member.fullname|default:$member.username class='img-circle' gravatar=true email=$member.email*}
+					{ia_image file=$member.avatar title=$member.fullname|default:$member.username class='img-circle' gravatar=true email=$member.email}
 					{$member.fullname|default:$member.username}
 					<span class="caret"></span>
 				</a>
@@ -35,7 +35,7 @@
 {else}
 	<!--__ms_{$menu.id}-->
 	{if $menu.header || isset($manageMode)}
-		<div class="nav-menu-header {$menu.classname}">{$menu.title}</div>
+		<div class="nav-menu-header {$menu.classname}">{$menu.title|escape:'html'}</div>
 	{else}
 		<div class="menu {$menu.classname}">
 	{/if}

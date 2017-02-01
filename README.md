@@ -50,7 +50,7 @@ If you don't want to use Gulp task-runner to process template files, you can use
 What is important:
 * The main file for compilation is `iabootstrap.less`. It should be compiled to `[root]/templates/kickstart/css/iabootstrap.css`
 
-## Template styles/elements page
+### Template styles/elements page
 
 There is a hidden page with all supported elements. You can access it like this:
 ```
